@@ -23,7 +23,8 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 // core overrides
-$navbar-bg:                           #0093c9 !default;
+$theme-primary:                       #d71921 !default;
+$navbar-bg:                           $theme-primary !default;
 $navbar-height:                       55px !default;
 $sidebar-width:                       230px;
 $navbar-brand-logo:                   transparent !default;

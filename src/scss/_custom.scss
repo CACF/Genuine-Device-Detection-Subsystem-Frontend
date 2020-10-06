@@ -1522,7 +1522,7 @@ body {
 		}
 
 		span {
-			color: #3f51b5;
+			color: $theme-primary;
 		}
 
 	}
@@ -1794,8 +1794,8 @@ body {
 	border-radius: 0.35rem;
 
 	&.pendbx {
-		-webkit-box-shadow: 1.414px 1.414px 0px 0px rgba(63, 81, 181, 0.5);
-		box-shadow: 1.414px 1.414px 0px 0px rgba(63, 81, 181, 0.5);
+		-webkit-box-shadow: 1.414px 1.414px 0px 0px rgba(215, 25, 33, 0.5);
+		box-shadow: 1.414px 1.414px 0px 0px rgba(215, 25, 33, 0.5);
 	}
 
 	&.inrevibx {
@@ -1872,7 +1872,7 @@ body {
 		}
 
 		a {
-			color: #3f51b5;
+			color: $theme-primary;
 		}
 
 	}

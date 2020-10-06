@@ -139,7 +139,7 @@ class UserResponseDetails extends Component {
                 <Card>
                 <CardBody>
                { loading  ?
-               <Row  className="d-flex justify-content-center"><PointSpreadLoading color='#0093c9' speed={1} style={{ width: '0px !important' }} /></Row> :                
+               <Row  className="d-flex justify-content-center"><PointSpreadLoading color='#d71921' speed={1} style={{ width: '0px !important' }} /></Row> :                
                 userResponse.length> 0 ?
                 <Table className="table table-sm table-bordered table-hover mt-3 table-mobile-primary table-search animated fadeIn position-relative">
                 <thead className="thead-light">

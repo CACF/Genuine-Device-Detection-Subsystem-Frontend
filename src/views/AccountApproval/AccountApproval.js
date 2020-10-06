@@ -231,7 +231,7 @@ class AccountApproval extends Component {
                     </FormGroup>
                   </div>
                 } */}
-                {selectedOEM.oemName === '' ? null : brandLoading ? <PointSpreadLoading color='#0093c9' speed={1} style={{ width: '0px !important' }} /> : <div>
+                {selectedOEM.oemName === '' ? null : brandLoading ? <PointSpreadLoading color='#d71921' speed={1} style={{ width: '0px !important' }} /> : <div>
                   {brandsList.map((elem, i) => {
                     return !selectedBrands.includes(elem) && <ListGroupItem onClick={() => this.selectBrand(elem)} key={i} tag="button" action className={selectedBrands.includes(elem) && "active"}>{elem}</ListGroupItem>
                   })}

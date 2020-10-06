@@ -35,7 +35,7 @@ class SummaryDataTable extends Component {
           tableData == 0 ? (
             <Row className="d-flex justify-content-center">
               <PointSpreadLoading
-                color="#0093c9"
+                color="#d71921 "
                 speed={1}
                 style={{ width: "0px !important" }}
               />
@@ -80,7 +80,7 @@ class SummaryDataTable extends Component {
         ) : Object.keys(tableData).length === 0 ? (
           <Row className="d-flex justify-content-center">
             <PointSpreadLoading
-              color="#0093c9"
+              color="#d71921 "
               speed={1}
               style={{ width: "0px !important" }}
             />

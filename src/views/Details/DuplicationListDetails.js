@@ -152,7 +152,7 @@ class DuplicationListDetails extends Component {
                 {loading ? (
                   <Row className="d-flex justify-content-center">
                     <PointSpreadLoading
-                      color="#0093c9"
+                      color="#d71921 "
                       speed={1}
                       style={{ width: "0px !important" }}
                     />
