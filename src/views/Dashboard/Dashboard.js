@@ -77,7 +77,7 @@ class Dashboard extends Component {
             </ul>
           </Col>
           <Col sm={6} xl={3}>
-            <ul className="dashbx inrevibx">
+            <ul className="dashbx pendbx">
               <li>
                 <div className="iconbx">
                   <svg className="icon-registration" fill="#6c757d">
@@ -96,8 +96,8 @@ class Dashboard extends Component {
             <ul className="dashbx pendbx">
               <li>
                 <div className="iconbx">
-                  <svg className="icon-registration" fill="#d71921">
-                    <use xlinkHref="./img/svg-symbol.svg#inrevReg"></use>
+                  <svg className="icon-registration" fill="#3f51b5">
+                    <use xlinkHref="./img/svg-symbol.svg#totalTac"></use>
                   </svg>
                 </div>
                 <h4><span>{i18n.t('total')} </span>TACs</h4>
