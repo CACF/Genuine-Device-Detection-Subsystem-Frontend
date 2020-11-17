@@ -174,8 +174,17 @@ class OEMHomePage extends Component {
                               <li>{i18n.t('color')}</li>
                               <li>{i18n.t('brand')}</li>
                               <li>{i18n.t('modelName')}</li>
-                              <li>{i18n.t("macAddress")}</li>
+                              <li>{i18n.t("otherimeis")}</li>
                               <li>{i18n.t("radioAccessTechnologies")}</li>
+                              <li>{i18n.t('macWiFiAddress')}</li>
+                              {i18n.t('MACInfoOne')}:
+                              <ul>
+                              <li>A2:C9:66:F8:47:C5</li>
+                              <li>A2-C9-66-F8-47-C5</li>
+                              <li>A2C.966.F84.7C5</li>
+                              <li>00:25:96:FF:FE:12:34:56</li>
+                              <li>0025:96FF:FE12:3456</li>
+                              </ul>
                           </ul>
                         </div>
                       </div>

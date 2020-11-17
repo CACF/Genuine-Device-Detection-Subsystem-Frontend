@@ -117,6 +117,7 @@
   "name": "Nama",
   "status": "Status",
   "view": "Melihat",
+  "otherimeis":"IMEIS lainnya",
 
   "validation.oneOfTheAboveFieldsIsRequired": "Salah satu bidang di atas wajib diisi",
   "validation.enteredImeiDoesnTMatch": "IMEI yang dimasukkan tidak cocok",

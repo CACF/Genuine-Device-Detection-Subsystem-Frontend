@@ -127,16 +127,23 @@ class InfoSubmission extends Component {
                         />
                       </Col>
                       <Col md={12}>
+                        <Field
+                          name="OtherIMEIS"
+                          component={renderInput}
+                          type="text"
+                          label={t("otherimeis")}
+                          placeholder={t("otherimeis")}
+                        
+                        />
+                      </Col>
+                      <Col md={12}>
                         <RenderSelect
                           value={values.technologies}
                           onChange={setFieldValue}
                           options={[
                             { label: "2G", value: "2G" },
                             { label: "3G", value: "3G" },
-                            {
-                              label: "4G",
-                              value: "4G",
-                            },
+                            { label: "4G", value: "4G" },
                             { label: "5G", value: "5G" },
                           ]}
                           onBlur={setFieldTouched}
@@ -189,6 +196,7 @@ export const EnhancedModalForm = withFormik({
     modelName: "",
     mac: "",
     technologies: "",
+    OtherIMEIS:""
   }),
   /**
    * Formik validations
@@ -240,6 +248,7 @@ export const EnhancedModalForm = withFormik({
       oem_brand: values.brand,
       oem_model: values.modelName,
       mac: values.mac,
+      Other_IMEIs:values.OtherIMEIS,
       oem_rat: technologies.join(),
     };
     /**
@@ -252,9 +261,10 @@ export const EnhancedModalForm = withFormik({
       values.brand ||
       values.modelName ||
       values.mac ||
-      values.technologies
+      values.technologies || 
+      values.OtherIMEIS
     ) {
-      values.serialNumber = values.color = values.brand = values.modelName = values.mac = values.technologies =
+      values.serialNumber = values.color = values.brand = values.modelName = values.mac = values.technologies = values.OtherIMEIS =
         "";
     }
   },

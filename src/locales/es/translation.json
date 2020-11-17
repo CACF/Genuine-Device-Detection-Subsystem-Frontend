@@ -117,6 +117,7 @@
   "name": "nombre",
   "status": "estado",
   "view": "Ver",
+   "otherimeis": "Otros IMEIS",
 
   "validation.oneOfTheAboveFieldsIsRequired": "Uno de los campos anteriores es obligatorio",
   "validation.enteredImeiDoesnTMatch": "El IMEI introducido no coincide",

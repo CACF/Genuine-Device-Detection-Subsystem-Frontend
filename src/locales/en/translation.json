@@ -124,6 +124,7 @@
   "name": "Name",
   "status": "Status",
   "view": "View",
+  "otherimeis":"Other IMEIS",
 
   "validation.oneOfTheAboveFieldsIsRequired": "One of the above fields is required",
   "validation.enteredImeiDoesnTMatch": "Entered IMEI doesn't match",
