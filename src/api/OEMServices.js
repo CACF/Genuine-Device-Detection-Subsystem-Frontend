@@ -51,5 +51,5 @@ export const bulkUploadAPI = (config, file) => {
 
 export const submitPublicResponseAPI = (params) => {
     return instance
-    .put(`/user-response-web`, params);
+    .post(`/user-response-web`, params);
 }
